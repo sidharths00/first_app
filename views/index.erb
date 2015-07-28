@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Sinatra Calculator</title>
+  <link rel="shortcut icon" href="http://2gether4good.files.wordpress.com/2010/07/1_2_3.jpg" />
+ </head>
+ <body>
+   <h1>The Sinatra Calculator</h1>
+   <form method = "POST" action = "/result">
+     <input type = "text" name = "num1">
+     <select name = "op">
+     <option value = "+">+<br>
+     <option value = "-">-<br>
+     <option value = "*">*<br>
+     <option value = "/">/<br>
+     <option value = "sqrt">sqrt<br>
+     <option value = "^">^<br>
+     <option value = "sin">sin<br>
+     <option value = "cos">cos<br>
+     <option value = "tan">tan<br>
+     </select>
+     <input type = "text" name = "num2">
+     <input type = "submit" value = "Calculate!!">
+   </form>
+   <h3>To do operations that only require one number(like sin, cos, tan, and sqrt), place one number in the first box, choose an operator, and click Calculate.</h3>
+ </body>
+</html>
